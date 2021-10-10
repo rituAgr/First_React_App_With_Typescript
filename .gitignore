@@ -11,6 +11,8 @@
 .idea/
 # production
 /build
+index.js
+/dist
 
 # misc
 .DS_Store

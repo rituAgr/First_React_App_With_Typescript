@@ -1,7 +1,12 @@
 import * as React from "react";
 import * as ReactDOM  from "react-dom";
+import { Header } from "./header";
+import CustomDate from "./customdate";
 
 ReactDOM.render(
-    <h1>Hi Again World!! - Version 2</h1>,
+    <div>
+        <Header/>
+        <CustomDate/>
+    </div>,
     document.querySelector('#root')
 );

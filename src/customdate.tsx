@@ -7,7 +7,6 @@ function BubbleBee() {
 
     let getTime = () => {
         setTime(new Date().toTimeString());
-        alert(time);
     }
     return (
         <div>

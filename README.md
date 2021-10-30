@@ -52,6 +52,8 @@ prop vs state
 * Two ways to have dynamic value in component is changing the value of props or making the changeable value as state.
 
 * React Hooks: Modern & Functional way of state management.
+  * useState
+  * useEffect : you tell React that your component needs to do something after render.
 
 
 

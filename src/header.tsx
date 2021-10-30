@@ -17,5 +17,6 @@ function Header(props: HeaderProps) {
         </div>
     );
 }
+Header.displayName = 'Header';
 
 export { Header };

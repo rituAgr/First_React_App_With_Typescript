@@ -19,6 +19,7 @@ function frootLoop() {
             })}
         </ul>
     );
-}
+};
+frootLoop.displayName = 'frootLoop';
 
 export default frootLoop;

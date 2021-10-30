@@ -1,5 +1,6 @@
 import * as React from "react";
 import {useState} from "react";
+import frootLoop from "./froot-loop";
 
 function BubbleBee() {
 
@@ -14,6 +15,7 @@ function BubbleBee() {
             <button onClick={getTime}>Get the Time</button>
         </div>
     );
-}
+};
+BubbleBee.displayName = 'CustomDate';
 
 export default BubbleBee;

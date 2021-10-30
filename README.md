@@ -45,6 +45,15 @@
  * Oops, you will be getting error & not able to see any content of index.tsx. Because now we need module bundler like webpack.
 
 
+* Props are used to pass the data from parent to child components.
+prop vs state
+  states - This is for the data that change all the time.
+  
+* Two ways to have dynamic value in component is changing the value of props or making the changeable value as state.
+
+* React Hooks: Modern & Functional way of state management.
+
+
 
 
    

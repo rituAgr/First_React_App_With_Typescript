@@ -5,7 +5,7 @@ import CustomDate from "./customdate";
 
 ReactDOM.render(
     <div>
-        <Header/>
+        <Header text='Good Morning'/>
         <CustomDate/>
     </div>,
     document.querySelector('#root')

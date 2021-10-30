@@ -1,11 +1,18 @@
 import * as React from "react";
+import {useState} from "react";
 
 function BubbleBee() {
-    let date = new Date().toDateString();
+
+    let [time, setTime] = useState("");
+
+    let getTime = () => {
+        setTime(new Date().toTimeString());
+        alert(time);
+    }
     return (
         <div>
-            {date}
-            <button>Get the Date</button>
+            {time}
+            <button onClick={getTime}>Get the Time</button>
         </div>
     );
 }

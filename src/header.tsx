@@ -1,10 +1,13 @@
 import * as React from "react";
 
+type HeaderProps = {
+    text?: String
+}
 
-function Header() {
+function Header(props: HeaderProps) {
     return (
         <div>
-            <h1 className="primary-header" >Hello World!!</h1>
+            <h1 className="primary-header" >{props.text}</h1>
         </div>
     );
 }
